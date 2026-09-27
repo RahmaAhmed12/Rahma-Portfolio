@@ -6,5 +6,10 @@
       "contactInfo": "Contact Info",
       "projects": "My Projects"
     }
+  },
+  "aboutMeSection": {
+    "title1": "About",
+    "title2": "Me",
+    "description": ""
   }
 }
