@@ -1,3 +1,10 @@
 {
-  "welcome": "مرحباً"
+  "navbar": {
+    "downloadCV": "تحميل السيرة الذاتية",
+    "tabs": {
+      "aboutMe": "نبذة عني",
+      "contactInfo": "معلومات التواصل",
+      "projects": "المشاريع"
+    }
+  }
 }

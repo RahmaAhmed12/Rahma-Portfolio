@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
     setOpen(false);
   };
   return (
-    <div>
+    <div className="relative">
       <button
         className=" text-base  flex justify-between  items-center gap-2 py-2 px-4"
         onClick={() => setOpen(!open)}
@@ -31,17 +31,17 @@ const LanguageSwitcher = () => {
       </button>
 
       {open && (
-        <div className="text-base mt-2 w-36 bg-white border border-light-grey-300 rounded-md shadow-lg ">
+        <div className=" absolute right-0 top-full z-20 text-base mt-2 w-36 bg-white dark:bg-primary-900 border border-secondary-500 dark:border-secondary-800 rounded-md shadow-lg ">
           <ul className="p-2 ">
             <li
-              className=" flex items-center gap-3 px-4 py-2 hover:bg-gray-100 cursor-pointer rounded-md"
+              className=" flex items-center gap-3 px-4 py-2  cursor-pointer rounded-md"
               onClick={() => changeLanguage("en")}
             >
               <img src={enIcon} alt="language Icon " className="w-5 h-5" />
               English
             </li>
             <li
-              className=" flex items-center gap-3 px-4 py-2 hover:bg-gray-100 cursor-pointer rounded-md"
+              className=" flex items-center gap-3 px-4 py-2  cursor-pointer rounded-md"
               onClick={() => changeLanguage("ar")}
             >
               <img src={arIcon} alt="language Icon " className="w-5 h-5" />

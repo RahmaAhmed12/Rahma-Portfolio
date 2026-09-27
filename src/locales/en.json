@@ -1,3 +1,10 @@
 {
-  "welcome": "Welcome"
+  "navbar": {
+    "downloadCV": "Download CV",
+    "tabs": {
+      "aboutMe": "About Me",
+      "contactInfo": "Contact Info",
+      "projects": "My Projects"
+    }
+  }
 }
