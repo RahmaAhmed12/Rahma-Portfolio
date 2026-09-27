@@ -8,7 +8,7 @@ const Home = () => {
     <div className="min-h-screen text-black dark:text-white">
       <Navbar />
 
-      <main className="p-5 flex flex-col gap-20">
+      <main className="px-6 py-8 flex flex-col gap-20">
         <AboutMe />
         <Projects />
         <ContactInfo />
