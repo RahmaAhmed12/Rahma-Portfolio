@@ -1,12 +1,18 @@
-import LanguageSwitcher from "../../shared/components/lang-switcher";
-import ThemeToggle from "../../shared/components/theme-toggle";
+import Navbar from "./navbar/navbar";
+import AboutMe from "./sections/aboutMe";
+import ContactInfo from "./sections/contactInfo";
+import Projects from "./sections/projects";
 
 const Home = () => {
   return (
-    <div className=" text-black dark:text-white">
-      Hello
-      <LanguageSwitcher />
-      <ThemeToggle />
+    <div className="min-h-screen text-black dark:text-white">
+      <Navbar />
+
+      <main className="p-5 flex flex-col gap-20">
+        <AboutMe />
+        <Projects />
+        <ContactInfo />
+      </main>
     </div>
   );
 };
