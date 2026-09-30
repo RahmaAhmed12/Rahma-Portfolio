@@ -4,6 +4,7 @@ import cvFile from "../../../assets/Rahma Ahmed CV.pdf";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import LanguageSwitcher from "../../../shared/components/lang-switcher";
+
 const Navbar = () => {
   const { t } = useTranslation();
 
@@ -19,14 +20,21 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full  p-5 z-50 sticky top-0 flex items-center gap-5 lg:gap-10 border-b border-secondary-500 dark:border-secondary-800 shadow bg-white dark:bg-[#222831]">
-      <div className="w-[80%] lg:w-full md:text-lg lg:text-2xl font-bold text-primary-700 dark:text-white ">
-        Rahma's Portfolio
-      </div>
+    <div className="w-full  p-5 z-50 sticky top-0 flex items-center gap-5 lg:gap-10 shadow bg-[#FCF9EA] dark:bg-[#181818] dark:border-b dark:border-primary-800">
+      <a
+        href="#Hero"
+        className="w-[80%] lg:w-full md:text-lg lg:text-3xl font-bold text-primary-700 dark:text-white "
+      >
+        Rahma's
+        <span className="text-primary-500 dark:text-primary-500">
+          {" "}
+          Portfolio
+        </span>
+      </a>
 
       <div
         className="hidden  md:flex w-full items-center justify-center 
-      md:gap-4 lg:gap-8 text-sm text-primary-700 font-medium dark:text-white "
+      md:gap-4 lg:gap-8 text-sm lg:text-base text-primary-600 font-normal dark:text-[#9FAAB0] "
       >
         <a
           href="#AboutMe"
@@ -47,15 +55,15 @@ const Navbar = () => {
           {t("navbar.tabs.contactInfo")}
         </a>
       </div>
-      <div className="hidden  md:flex  w-[80%] lg:w-full items-center justify-end gap-4">
+      <div className="hidden  md:flex w-full items-center justify-end gap-4">
         <ThemeToggle />
         {/* <LanguageSwitcher /> */}
-        <button
+        {/* <button
           className="p-1.5 lg:py-2 lg:px-4 font-semibold rounded-full bg-primary-500 text-white text-xs lg:text-base"
           onClick={downloadCv}
         >
           {t("navbar.downloadCV")}
-        </button>
+        </button> */}
       </div>
 
       {/* for the phone and tablet  */}

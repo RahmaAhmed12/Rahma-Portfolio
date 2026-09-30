@@ -1,11 +1,17 @@
 {
   "navbar": {
-    "downloadCV": "Download CV",
     "tabs": {
       "aboutMe": "About Me",
       "contactInfo": "Contact Info",
       "projects": "My Projects"
     }
+  },
+  "hero": {
+    "title1": "Front-End Developer",
+    "title2": "Building Modern Web Experiences ",
+    "downloadCV": "Download CV",
+    "exploreProjects": "Explore Projects",
+    "description": "I'm a Front-End Developer with 1+ year of experience building modern, responsive, and user-friendly web applications using React, Next.js, and Angular, with TypeScript and JavaScript."
   },
   "aboutMeSection": {
     "title1": "About",

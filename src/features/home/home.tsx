@@ -1,6 +1,7 @@
 import Navbar from "./navbar/navbar";
 import AboutMe from "./sections/aboutMe";
 import ContactInfo from "./sections/contactInfo";
+import HeroSection from "./sections/hero";
 import Projects from "./sections/projects";
 
 const Home = () => {
@@ -9,9 +10,10 @@ const Home = () => {
       <Navbar />
 
       <main className="px-6 py-8 flex flex-col gap-20">
-        <AboutMe />
+        <HeroSection />
+        {/* <AboutMe />
         <Projects />
-        <ContactInfo />
+        <ContactInfo /> */}
       </main>
     </div>
   );
