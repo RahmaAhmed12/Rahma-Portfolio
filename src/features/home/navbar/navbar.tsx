@@ -20,13 +20,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full  p-5 z-50 sticky top-0 flex items-center gap-5 lg:gap-10 shadow bg-[#FCF9EA] dark:bg-[#181818] dark:border-b dark:border-primary-800">
+    <div className="w-full  p-5 z-50 sticky top-0 flex items-center gap-5 lg:gap-10 shadow bg-secondary-50 dark:bg-secondary-900 ">
       <a
         href="#Hero"
-        className="w-[80%] lg:w-full md:text-lg lg:text-3xl font-bold text-primary-700 dark:text-white "
+        className="w-[80%] lg:w-full md:text-lg lg:text-xl font-bold text-secondary-700 dark:text-primary-50"
       >
         Rahma's
-        <span className="text-primary-500 dark:text-primary-500">
+        <span className="text-primary-900 dark:text-primary-500">
           {" "}
           Portfolio
         </span>
@@ -34,28 +34,28 @@ const Navbar = () => {
 
       <div
         className="hidden  md:flex w-full items-center justify-center 
-      md:gap-4 lg:gap-8 text-sm lg:text-base text-primary-600 font-normal dark:text-[#9FAAB0] "
+      md:gap-4 lg:gap-8 text-sm  text-secondary-700 font-medium dark:text-primary-50 "
       >
         <a
           href="#AboutMe"
-          className="hover:underline hover:underline-offset-8 cursor-pointer"
+          className="hover:underline hover:underline-offset-8 cursor-pointer hover:text-primary-500"
         >
           {t("navbar.tabs.aboutMe")}
         </a>
         <a
           href="#Projects"
-          className="hover:underline hover:underline-offset-8 cursor-pointer"
+          className="hover:underline hover:underline-offset-8 cursor-pointer hover:text-primary-500"
         >
           {t("navbar.tabs.projects")}
         </a>
         <a
           href="#ContactInfo"
-          className="hover:underline hover:underline-offset-8 cursor-pointer"
+          className="hover:underline hover:underline-offset-8 cursor-pointer hover:text-primary-500"
         >
           {t("navbar.tabs.contactInfo")}
         </a>
       </div>
-      <div className="hidden  md:flex w-full items-center justify-end gap-4">
+      <div className="hidden  md:flex w-[60%] lg:w-full items-center justify-end gap-4">
         <ThemeToggle />
         {/* <LanguageSwitcher /> */}
         {/* <button

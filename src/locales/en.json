@@ -7,15 +7,16 @@
     }
   },
   "hero": {
-    "title1": "Front-End Developer",
-    "title2": "Building Modern Web Experiences ",
+    "welcome": "Welcome to my Portfolio",
+    "title1": "Hi,",
+    "title2": "I'm Rahma Ahmed",
     "downloadCV": "Download CV",
     "exploreProjects": "Explore Projects",
-    "description": "I'm a Front-End Developer with 1+ year of experience building modern, responsive, and user-friendly web applications using React, Next.js, and Angular, with TypeScript and JavaScript."
+    "smallDescription": "I’m a Front-End Developer passionate about turning ideas into beautiful, intuitive, and meaningful digital experiences."
   },
   "aboutMeSection": {
-    "title1": "About",
-    "title2": "Me",
-    "description": ""
+    "title": "About Me",
+    "subTitle": "I'm Rahma Ahmed, front-End Developer",
+    "description": "I’m a passionate Front-End Developer who enjoys turning ideas into clean, responsive, and user-friendly digital experiences. I focus on creating interfaces that are not only visually appealing but also intuitive, accessible, and enjoyable to use. I’m always eager to learn, improve my skills, and take on new challenges that help me grow as a developer."
   }
 }

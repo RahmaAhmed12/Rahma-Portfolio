@@ -1,7 +1,7 @@
 import Navbar from "./navbar/navbar";
 import AboutMe from "./sections/aboutMe";
 import ContactInfo from "./sections/contactInfo";
-import HeroSection from "./sections/hero";
+import Hero from "./sections/hero";
 import Projects from "./sections/projects";
 
 const Home = () => {
@@ -9,11 +9,11 @@ const Home = () => {
     <div className="min-h-screen text-black dark:text-white">
       <Navbar />
 
-      <main className="px-6 py-8 flex flex-col gap-20">
-        <HeroSection />
-        {/* <AboutMe />
+      <main className=" px-5 md:px-10 lg:px-15 py-8 flex flex-col gap-20">
+        <Hero />
+        <AboutMe />
         <Projects />
-        <ContactInfo /> */}
+        <ContactInfo />
       </main>
     </div>
   );

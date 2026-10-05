@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div id="Projects" className="h-100 bg-red-500 ">
+    <div id="Projects" className="scroll-mt-15 h-100 ">
       projects
     </div>
   );
